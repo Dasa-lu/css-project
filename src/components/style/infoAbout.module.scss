@@ -1,0 +1,51 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 48px 60px;
+}
+
+.aboutMe {
+  width: 520px;
+  text-align: left;
+}
+
+.name {
+  font-size: 92px;
+  line-height: 0.95;
+  font-weight: 500;
+  margin: 0 0 28px;
+}
+
+.info {
+  font-size: 22px;
+  line-height: 1.5;
+  color: #6b7280;
+  margin-left: 0.75rem;
+  max-width: 520px;
+}
+
+.links {
+  display: flex;
+  gap: 28px;
+  margin-top: 28px;
+}
+
+.links a {
+  font-size: 14px;
+  color: #6b7280;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.links a:hover {
+  color: #111;
+}
+
+.photo {
+  width: 20rem;
+  height: 30rem;
+}

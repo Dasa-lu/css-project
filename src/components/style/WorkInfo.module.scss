@@ -1,0 +1,76 @@
+.AllInfoField {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 96px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 96px 48px 80px;
+}
+
+.TextAboutTony {
+    max-width: 560px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #606673;
+}
+
+.TextAboutTony p {
+    margin: 0 0 20px;
+}
+
+.TextAboutTony p:last-child {
+    margin-bottom: 0;
+}
+
+.Experience, .Projects, .Clients {
+    display: flex;
+    height: 108px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.Stats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    min-width: 280px;
+}
+.Experience, .Projects, .Clients {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.Experience > p:first-child,
+.Projects > p:first-child,
+.Clients > p:first-child {
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #9aa3b2;
+}
+
+.Experience > h3,
+.Projects > h3,
+.Clients > h3 {
+    margin: 0;
+    font-size: 35px;
+    line-height: 1;
+    font-weight: 450;
+    color: #111;
+}
+
+.Experience > p:last-child,
+.Projects > p:last-child,
+.Clients > p:last-child {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #606673;
+}

@@ -1,0 +1,29 @@
+.NavBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.categories{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-family: Inter, serif;
+}
+
+.infoandLogo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    width: 2rem;
+    height: 2rem;
+}
+.divider{
+    height: 1px;
+        background: #111;
+        opacity: 0.15;
+        width: 100%;
+
+}
